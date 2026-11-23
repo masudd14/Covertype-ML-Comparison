@@ -1,0 +1,61 @@
+﻿# ==========================================
+# Byte-compiled / optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Environments
+# ==========================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Jupyter Notebook Checkpoints
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# Datasets & Heavy Preprocessed Files (>100MB exceeds GitHub limits)
+# ==========================================
+DATA/covertype/*.csv
+DATA/covertype/*.data
+DATA/covertype/*.data.gz
+data/**/*.csv
+data/**/*.data
+data/**/*.gz
+
+# ==========================================
+# Model Checkpoints
+# (Allow lightweight transformers, ignore heavy model weights >100MB)
+# ==========================================
+DATA/covertype/final_model.pkl
+*.pkl
+!DATA/covertype/pca_model.pkl
+!DATA/covertype/scaler.pkl
+!models/pca_model.pkl
+!models/scaler.pkl
+
+# ==========================================
+# IDEs and OS Metadata
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Local helper scripts
+push_to_github.bat
