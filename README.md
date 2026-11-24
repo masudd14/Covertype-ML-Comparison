@@ -297,7 +297,7 @@ Follow the numbered notebooks from `01` through `06` to reproduce every experime
 ## 💾 Model Weights & Reproducibility
 
 > [!NOTE]
-> To comply with GitHub's 100 MB file limit, the large model weight file (`final_model.pkl`, ~637 MB) and large CSV data dumps (`*.csv`, `*.data`) are excluded via `.gitignore`.
+> To comply with GitHub's 100 MB file limit, the large model weight file (`final_pip_model.pkl`, ~802 MB) and large CSV data dumps (`*.csv`, `*.data`) are excluded via `.gitignore`.
 > * The lightweight transformers (`scaler.pkl` at 3 KB and `pca_model.pkl` at 19 KB) are checked into the repository to allow inference pipelines.
 > * To reproduce `final_model.pkl`, simply execute `notebooks/05_hyperparameter_tuning.ipynb` on your machine.
 
