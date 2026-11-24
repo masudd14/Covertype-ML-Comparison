@@ -37,7 +37,7 @@ data/**/*.gz
 # Model Checkpoints
 # (Allow lightweight transformers, ignore heavy model weights >100MB)
 # ==========================================
-DATA/covertype/final_model.pkl
+DATA/covertype/final_pip_model.pkl
 *.pkl
 !DATA/covertype/pca_model.pkl
 !DATA/covertype/scaler.pkl
